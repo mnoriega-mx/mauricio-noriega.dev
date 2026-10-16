@@ -1,16 +1,16 @@
 export const work = [
   {
-    role: "Software Engineer Intern – Embedded Systems",
+    role: "Software Engineer Intern",
     company: "DETEC",
-    period: "Starting Oct 2026",
+    period: "Oct 2026 - Present",
     location: "Monterrey, MX",
-    upcoming: true,
+    ongoing: true,
     bullets: [
-      "Develop embedded Linux components, including kernel compilation and hardware drivers, connecting the hardware layer to the Linux user-space layer.",
-      "Build driver and communication layers spanning from the kernel level up to user space.",
-      "Contribute to a cloud platform for secure, remote management of embedded devices.",
+      "Develop a cloud platform that monitors and remotely manages 3,000+ cellular routers deployed in the field, using the telemetry data each router sends",
+      "Work on system design, including router telemetry ingestion, connection status, alerting and remote firmware updates",
+      "Gather user stories by interviewing hardware and manufacturing engineers, then break them down into functional and non-functional requirements",
       "Work with proprietary Qualcomm Linux distributions combining open-source and vendor-specific components.",
-      "Implement messaging across internal processor, peripheral, and external cloud communication layers.",
+      "Follow the full software development lifecycle, from requirements and architecture to implementation, testing and deployment",
     ],
   },
   {
