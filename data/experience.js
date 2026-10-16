@@ -3,7 +3,7 @@ export const work = [
     role: "Software Engineer Intern – Embedded Systems",
     company: "DETEC",
     period: "Starting Oct 2026",
-    location: "Monterrey, México",
+    location: "Monterrey, MX",
     upcoming: true,
     bullets: [
       "Develop embedded Linux components, including kernel compilation and hardware drivers, connecting the hardware layer to the Linux user-space layer.",
