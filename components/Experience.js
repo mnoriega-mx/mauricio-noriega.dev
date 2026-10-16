@@ -34,6 +34,12 @@ function ExperienceItem({ item, defaultOpen = false }) {
                   Upcoming
                 </span>
               )}
+              {item.ongoing && (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-2 text-[12px] font-medium text-green-700">
+                  <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
+                  Ongoing
+                </span>
+              )}
             </div>
             <div className="mt-0.5 text-sm text-blue-600">{item.company}</div>
             <div className="mt-1 text-xs text-gray-500">
